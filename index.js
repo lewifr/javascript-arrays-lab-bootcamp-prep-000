@@ -16,6 +16,4 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
-function appendKitten(name) {
-  return [...kittens, name]
-}
+const appendKitten = (name) => [...kittens, name]
